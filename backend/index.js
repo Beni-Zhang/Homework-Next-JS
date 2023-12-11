@@ -23,7 +23,7 @@ function authenticateTokenMiddleware(req, res, next) {
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:3000",
     allowedHeaders:
       "Origin, X-Requested-With, Content-Type, Accept, Authorization",
     methods: "GET, POST, PUT, DELETE, PATCH, OPTIONS",
